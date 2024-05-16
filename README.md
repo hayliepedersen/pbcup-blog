@@ -1,3 +1,3 @@
-## This is a simple blog.
+## Simple Peanut Butter Cup Blog
 
-This blog contains information on a simple topic.
+This blog contains information on Reese's Peanut Butter Cups.
