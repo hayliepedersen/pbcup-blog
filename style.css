@@ -10,23 +10,29 @@ html, body {
   
   .container {
     margin: 0 auto;
-    max-width: 940px; 
+    max-width: 1675px; 
+    padding: 0 10px;
+  }
+
+  .left {
+    margin: 0 auto;
+    max-width: 1825px;
     padding: 0 10px;
   }
   
-  .header {
+  header {
     background: url("https://images.pexels.com/photos/11158836/pexels-photo-11158836.jpeg") no-repeat center center; 
     background-size: cover;
     height: 800px;
     text-align: center; 
   }
   
-  .header .container {
+  header .container {
     position: relative;
     top: 200px;
   }
   
-  .header h1 {
+  header h1 {
     color: #fff;
     line-height: 100px; 
     font-size: 80px;
@@ -36,12 +42,12 @@ html, body {
   }
   
   @media (min-width:850px) {
-    .header h1 {
+    head h1 {
       font-size: 120px;
     }
   }
   
-  .header p {
+  header p {
     color: #fff;
     font-weight: 500;
     letter-spacing: 8px;
@@ -58,21 +64,20 @@ html, body {
     transition: background .5s; 
   }
   
-  .nav { 
+  nav { 
     background: #000;
     height: 80px; 
     width: 100%;
   }
   
-  .nav ul {
+  nav ul {
     height: 80px;
     list-style: none;
     margin: 0 auto; 
     padding: 0;
   }
   
-  .nav ul li {
-    color: #fff;
+  nav ul li {
     display: inline-block; 
     height: 80px;
     line-height: 80px; 
@@ -80,24 +85,30 @@ html, body {
     padding: 0 10px;
     transition: background .5s; 
   }
+
+  #buttons li a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+  }
   
-  .btn:hover, .nav ul li:hover {
+  .btn:hover, nav ul li:hover {
     background: #ff6811;
     cursor: pointer; 
     transition: background .5s;  
   }
   
-  .main .container {
+  main .left {
     margin: 80px auto;
   }
   
-  .main img {
+  main img {
     float: left;
     margin: 20px 25px 50px 0;
   }
   
   .jumbotron {
-    background: url("https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg?auto=compress&cs=tinysrgb&w=800") center center;
+    background: url("https://images.pexels.com/photos/6659880/pexels-photo-6659880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center center;
     background-size: cover;
     height: 600px; 
   }
@@ -122,13 +133,14 @@ html, body {
     float: right; 
   }
   
-  .footer { 
+  footer { 
     background: #000;
     height: 80px; 
     padding-bottom: 50px;
+    padding-left: 30px;
   }
   
-  .footer p { 
+  footer p { 
     color: #fff;
     font-size: 14px;  
     height: 80px; 
@@ -137,16 +149,16 @@ html, body {
   }
   
   @media (max-width: 500px) {
-    .header h1 {
+    header h1 {
       font-size: 50px;
       line-height: 64px;
     }
   
-    .main, .jumbotron {
+    main, .jumbotron {
       padding: 0 30px;
     }
   
-    .main img {
+    main img {
       width: 100%;
     }
   }
