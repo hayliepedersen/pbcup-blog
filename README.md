@@ -14,7 +14,7 @@ The primary goal of this blog is to:
 
 Through completing this project, I aim to:
 - **Enhance Front-End Skills**: Improve my proficiency in front-end web development.
-- **Learn Git and GitHub**: Gain more experience using version control and collaboration tools, via the command line and GitHub Desktop.
+- **Learn Git and GitHub**: Gain more experience using version control and collaboration tools, via the command line and GitHub.
 - **Utilize Development Tools**: Familiarize myself with Visual Studio Code for efficient development.
 
 ## Technologies Used
